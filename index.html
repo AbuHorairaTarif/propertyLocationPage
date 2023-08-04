@@ -1,64 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title> BD Travels </title>
-      <!-- Style CSS -->
-      <link rel="stylesheet" href="/css/styles.css">
-      
-   </head>
-   <body>
-      <header class="cd__intro">
-        
-      </header>
-      <!--$%adsense%$-->
-      <main class="cd__main">
-         <!-- Start DEMO HTML (Use the following code into your project)-->
-         <div id="container-fluid">
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Bookmarked</a>
-            <!-- First Tier Drop Down -->
-            <ul>
-                <li><a href="#">Cox's Bazar Way</a></li>
-                <li><a href="#">Sundarban LL</a></li>
-                <li><a href="#">Padma Resort</a></li>
-            </ul>        
-            </li>
-            <li><a href="#">List Your Property</a>
-            <!-- First Tier Drop Down -->
-            <ul>
-                <li><a href="#">Property 1</a></li>
-                <li><a href="#">Property 2</a></li>
-                <li><a href="#">Property 3</a>
-            	<!-- Second Tier Drop Down -->
-                <ul>
-                    <li><a href="#">Sundarban Resort</a></li>
-                    <li><a href="#">Sylhet House</a></li>
-                    <li><a href="#">Other</a>
-                        <!-- Third Tier Drop Down -->
-                        <ul>
-                            <li><a href="#">Villa</a></li>
-                            <li><a href="#">Town</a></li>
-                            <li><a href="#">Other Stuff</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                </li>
-            </ul>
-            </li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Faq</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">About</a></li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traveling Website</title>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <!-- Header content - Logo, Navigation, etc. -->
+    <div class="wrapper">
+      <input type="checkbox" id="menu-toggle" style="display: none;">
+      <nav class="menu">
+        <section class="logo">
+          <label for="menu-toggle"><i class="fi-br-menu-burger" aria-hidden="true"></i></label>
+          <span class=""><i class="fa fa-leaf" aria-hidden="true" style="color: gold;"></i><span style="color: blue;">BedRoom</span><span style="color: goldenrod;">Villas</span></span>
+          <ul class="navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#bookmark">Bookmark</a></li>
+            <li><a href="#list-property">List Your Property</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#blog">Blog</a></li>
         </ul>
-    </nav>
-</div>
-         <!-- END EDMO HTML (Happy Coding!)-->
-      </main>
-      <footer class="">Author: </footer>
-      
-   </body>
+        
+        </section>
+        
+  
+        <section id="search-section">
+          <form>
+            <div class="search-check">
+              <span class="input-container"><i class="fa fa-search" aria-hidden="true"></i>
+                <input type="text" class="input-field" placeholder="Arizona, USA"></span>
+                <span class="input-container"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                  <input type="text" class="input-field" placeholder="Check In"></span>
+              <span class="input-container"><i class="fa fa-calendar-minus-o" aria-hidden="true"></i>
+                <input type="text" class="input-field" name="check-in" placeholder="Checkout Out"></span>
+            </div>
+            
+            
+            <button type="submit">Search</button>
+            <button type="submit">Filters</button>
+          </form>
+        </section>
+  
+      </nav>
+    </div>
+    
+  </header>
+
+  <main>
+    
+
+    <section id="results-section">
+      <!-- Display search results here -->
+    </section>
+
+    <section id="wishlist-section">
+      <h2>Your Wishlist</h2>
+      <ul>
+        
+        <!-- Each list item can be a resort with a "Remove" button -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer content -->
+  </footer>
+</body>
 </html>
+
