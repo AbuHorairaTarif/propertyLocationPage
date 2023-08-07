@@ -32,9 +32,9 @@ The project is made for the purpose of testing my knowledge in Pure HTML & CSS.I
 ##VERSION 1.0
 
 ## Live Link
-Hosted in GitHub -> [BedroomVillas-task01](https://abuhorairatarif.github.com/w3-engr/bedroom-task1/)
+Hosted in GitHub -> [BedroomVillas-task01](https://abuhorairatarif.github.io/w3-engr/bedroom-task1/)
 
-![Bedroom Villas](https://abuhorairatarif.github.com/w3-engr/bedroom-task1/screenshot/mobile-view.png)
+![Bedroom Villas](https://abuhorairatarif.github.io/w3-engr/bedroom-task1/screenshot/mobile-view.png)
 
 ## Features
 * navbar with menu icon, logo, input fields and button
